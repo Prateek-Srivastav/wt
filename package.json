@@ -1,6 +1,6 @@
 {
-  "homepage": "https://tishycs.github.io/Word-Tress",
-  "name": "word-tress",
+  "homepage": "https://prateek-srivastav.github.io/wt",
+  "name": "wt",
   "version": "0.1.0",
   "private": false,
   "dependencies": {
@@ -20,7 +20,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "CI=false react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -41,5 +41,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
   }
 }
